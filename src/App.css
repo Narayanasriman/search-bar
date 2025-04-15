@@ -1,29 +1,30 @@
-.App {
+.App{
   text-align: center;
 }
-.search-input{
+.input{
   width:350px;
-  height:40px;
-  border-radius: 7px;
+  height:50px;
+  border-radius:5px;
+  border:2px solid black;
+  font-size: 30px;
   padding: 5px;
-  font-size: 25px;
-  font-weight: 500;
+  
 }
-.results-container{
-  width: 350px;
+.result-container{
   margin: auto;
-  border: 1px solid black;
-  padding: 5px;
-  text-align: left;
-  max-height: 500px;
+  width:350px;
+  max-height: 400px;
   overflow-y: scroll;
-
+  border:2px black solid;
+  border-radius: 5px;
+  
 }
-.results{
+.result{
   display: block;
   padding: 5px;
 }
-.results:hover{
-  background-color:beige;
+.result:hover{
+  transition: 0.5s;
+  background-color: beige;
   cursor: pointer;
 }
